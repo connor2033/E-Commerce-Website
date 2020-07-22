@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html>
+
+    <head>
+        <title>Haines Sports - Home</title>
+            
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="../css/styles.css">
+        <script type="text/javascript" src="../js/functions.js"></script>
+                
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2&display=swap" rel="stylesheet">
+        
+    </head>
+    
+    <!-- Only have active Paralaxes here -->
+    <body onscroll="fireScroll(); scrollP(); scrollC(); scrollR();">
+    
+        
+        <!---   TOP          --->
+    
+        
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top stickyNav">
+
+              <a class="navbar-brand" href="#top">Haines Sports and Athletics</a>
+
+              <div class="navbar-collapse" id="navbarSupportedContent">
+                  
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#about" id="nav1">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#products" id="nav2">Products</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#contact" id="nav3">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#references" id="nav4">References</a>
+                    </li>
+
+                  
+                  </ul>
+              </div>
+            </nav>
+        
+        
+        
+        
+        <!--    Main Area   -->
+        <div class="prodPage">
+            
+            
+            <div class="row" style="height: 100%">
+                
+                <!-- Image  -->
+                <div class="col pageImgDiv">
+                    <img class="productImg pageImg" src="../images/biking.jpg">
+                    
+                </div>
+                
+                <div class="col">
+                    
+                    <!-- Product Header -->
+                    <div class="row">
+                        
+                        <div class="pageHeader">
+                            <h3>Bike</h3>
+                    <h1>$799</h1>
+                    <br />
+                    <h5>Product Code: B1I2K3</h5>
+                        </div>
+                        
+                        <div class="productDesc">
+                            <h4>Description:</h4>
+                        <br />
+                        <p>Premium race bikes made for a premium rider. Fast as fast can get. Buy now.</p>
+                        </div>
+                            
+                        <div class="btn pageCart" data-toggle="modal" data-target="#cartModal">
+                        <a>Add to cart</a>
+                        </div>    
+                        
+                    </div>
+
+                        
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+
+            
+            
+            
+        </div>
+
+        
+
+
+        
+        
+        
+        
+        
+        
+        <!--    Modal Window    -->
+        <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+
+              <div class="modal-content" style="color: black">
+
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Item Added to Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    This item has been added to your cart and is ready for purchase. Thanks for shopping with us!
+                  </div>
+
+                   <div class="modal-footer">
+                      <button type="button" class="btn modalClose" data-dismiss="modal">Close</button>
+                   </div>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        
+    </body>    
+    
+</html>
